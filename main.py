@@ -38,7 +38,8 @@ def find_a_book():
 
     book_dict = {}
     count = 0
-
+    
+    #PRINTS SEARCH RESULTS AND ADDS THEM TO A DICTIONARY
     for books in book_list:
         count += 1
         title = books['volumeInfo']['title']
@@ -50,7 +51,8 @@ def find_a_book():
             publisher = 'N/A'
         book_dict[str(count)] = {'title': title, 'author': author, 'publisher': publisher}
         print(f"{count} Title: {title} | Authors: {author} | Publisher: {publisher}")
-
+    
+    #USER CHOOSES WHICH OF THE SEARCH RESULTS MATCHES OR REPEATS THE SEARCH PROCESS
     book_choice = input("\nPlease choose your book (Enter 1-5).  If you don't see your book then enter 0: ")
     if book_choice == '0':
         print("Couldn't find it? Maybe try a more specific title?")
@@ -65,7 +67,7 @@ def find_a_book():
         print("Please enter a number between 0 and 5.")
         find_a_book()
 
-#OPENING GREETING LINE
+#PROGRAM STARTING POINT
 print("Welcome to your personal library!")
 
 while PROGRAM_ON:
