@@ -1,7 +1,35 @@
-# Google_Books_Library
+# # Google_Books_Library ##
 
 This program allows the user to create a Reading List by searching for books using the Google Books API. It was created exclusively in Python. 
 
+The latest version of Python can be download from this link: https://www.python.org/downloads/
+
+
+# Getting Started #
+
+On the main page for the Google_Reading_List repository, click on the green "Code" button in the upper right hand corner.  Then click on "Download ZIP" from the drop-down menu.  After the zip file is finished downloading, select "Open" and then move the unzipped file from the "Downloads" folder into the "Desktop" folder.
+
+Next, open the Terminal window (please note I'm using Mac OS) and enter:
+  
+  cd Desktop
+  
+  cd Google_Reading_List-main
+
+Then after the next 3 lines will need to be entered to add the required packages (please see the "requirements.txt" file for more details):
+
+  pip install requests
+  
+  pip install flask
+  
+  pip install flask-sqlalchemy
+  
+Finally, enter the following to run the code:
+  
+  python3 main.py
+  
+
+# How it Works #  
+  
 When the user first starts the program, they are greeted with a message and then they have the choice to select one of 3 options.
 
 The first option is to add a new book to the reading list.  If this option is selected, then the program will run a function that allows the user to input the title of the book they are searching for.  That title is then used to search through the Google Books API and prints 5 potential matches.  The user then can select their book if they see the match, but they also have the option to try another search if they can't find the book they are looking for.
