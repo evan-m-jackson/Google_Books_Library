@@ -1,4 +1,4 @@
-# # Google_Books_Library ##
+# Google_Books_Library #
 
 This program allows the user to create a Reading List by searching for books using the Google Books API. It was created exclusively in Python. 
 
