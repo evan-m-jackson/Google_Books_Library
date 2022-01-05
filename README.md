@@ -2,7 +2,7 @@
 
 This program allows the user to create a Reading List by searching for books using the Google Books API. It was created exclusively in Python. 
 
-It is highly recommended that the user has the latest version of Python.  The latest version of Python can be downloaded from this link: https://www.python.org/downloads/.
+It is highly recommended that the user has the latest version of Python installed.  It can be downloaded from this link: https://www.python.org/downloads/.
 
 
 # Getting Started #
