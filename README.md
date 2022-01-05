@@ -15,7 +15,7 @@ Next, open a Terminal window (please note I'm using Mac OS) and enter the follow
   
     cd Google_Reading_List-main
 
-Then after the next 3 lines will need to be entered to add the required packages (please see the "requirements.txt" file in the "Google_Reading_List-main" folder for more details):
+Then after the next 3 lines will need to be entered to add the required packages (please see the "requirements.txt" file in the "Google_Reading_List-main" folder for more details on the packages):
 
     pip install requests
   
