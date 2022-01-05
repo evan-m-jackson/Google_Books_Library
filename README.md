@@ -27,7 +27,7 @@ Finally, enter the following to run the code:
   
     python3 main.py
   
-Alternatively, the program can be run with the test file by entering:
+Alternatively, the code can be run with the test file by entering:
 
     python3 test_main.py
   
