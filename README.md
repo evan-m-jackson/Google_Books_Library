@@ -9,27 +9,27 @@ It is highly recommended that the user has the latest version of Python.  The la
 
 On the main page for the Google_Reading_List repository, click on the green "Code" button in the upper right hand corner.  Then click on "Download ZIP" from the drop-down menu.  After the zip file is finished downloading, select "Open" and then move the unzipped file from the "Downloads" folder into the "Desktop" folder.
 
-Next, open the Terminal window (please note I'm using Mac OS) and enter:
+Next, open a Terminal window (please note I'm using Mac OS) and enter the following 2 commands:
   
-  cd Desktop
+    cd Desktop
   
-  cd Google_Reading_List-main
+    cd Google_Reading_List-main
 
 Then after the next 3 lines will need to be entered to add the required packages (please see the "requirements.txt" file in the "Google_Reading_List-main" folder for more details):
 
-  pip install requests
+    pip install requests
   
-  pip install flask
+    pip install flask
   
-  pip install flask-sqlalchemy
+    pip install flask-sqlalchemy
   
 Finally, enter the following to run the code:
   
-  python3 main.py
+    python3 main.py
   
 Also to run the test file, enter the following:
 
-  python3 test_main.py
+    python3 test_main.py
   
 
 # How it Works #  
