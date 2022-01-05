@@ -15,7 +15,7 @@ Next, open the Terminal window (please note I'm using Mac OS) and enter:
   
   cd Google_Reading_List-main
 
-Then after the next 3 lines will need to be entered to add the required packages (please see the "requirements.txt" file for more details):
+Then after the next 3 lines will need to be entered to add the required packages (please see the "requirements.txt" file in the "Google_Reading_List-main" folder for more details):
 
   pip install requests
   
@@ -27,12 +27,16 @@ Finally, enter the following to run the code:
   
   python3 main.py
   
+Also to run the test file, enter the following:
+
+  python3 test_main.py
+  
 
 # How it Works #  
   
 When the user first starts the program, they are greeted with a message and then they have the choice to select one of 3 options.
 
-The first option is to add a new book to the reading list.  If this option is selected, then the program will run a function that allows the user to input the title of the book they are searching for.  That title is then used to search through the Google Books API and prints 5 potential matches.  The user then can select their book if they see the match, but they also have the option to try another search if they can't find the book they are looking for.
+The first option is to add a new book to the reading list.  If this option is selected, then the program will run a series of functions that allows the user to input the title of the book they are searching for.  That title is then used to search through the Google Books API and prints 5 potential matches.  The user then can select their book if they see the match, but they also have the option to try another search if they can't find the book they are looking for.
 
 The second option is to view the Reading List.  The Reading List is stored in a database that is created by using the Flask extension, Flask-SQLAlchemy.  The database has 3 columns (Title, Author, and Publisher).  Please note that some books in the Google API do not have a publisher listed, so those books will have "N/A" listed as a Publisher.  When the second option is selected, the program will print a list of all the books in the Reading List.
 
